@@ -1,24 +1,23 @@
-"""
-A collection of simple math operations
-"""
+def simple_math(n):
+    """This function is used to 
+    demostrate how to use py.test.
+    
+    Parameters
+    ----------
+    n : int and float, optional.
+    y : Output. int and float, optional.
+    
+    Returns
+    -------
+    Int and float are both possible. Can be any value.
 
-def simple_add(a,b):
-    return a+b
+    Examples
+    --------
+    >>> simple_math.simple_math(0)
+    1
+    >>> simple_math.simple_math(1)
+    2
+    """
+    y = n + 1
+    return y
 
-def simple_sub(a,b):
-    return a-b
-
-def simple_mult(a,b):
-    return a*b
-
-def simple_div(a,b):
-    return a/b
-
-def poly_first(x, a0, a1):
-    return a0 + a1*x
-
-def poly_second(x, a0, a1, a2):
-    return poly_first(x, a0, a1) + a2*(x**2)
-
-# Feel free to expand this list with more interesting mathematical operations...
-# .....
